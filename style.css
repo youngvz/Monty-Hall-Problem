@@ -14,10 +14,29 @@
 
 }
 
+
 #doorShape {
 	width: 200px;
 	height: 400px;
 	background: brown;
+	text-align: center;
+	float:left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	position: relative;
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 12pt;
+	color: white;
+}
+
+
+#doorShapeGoat {
+	width: 200px;
+	height: 400px;
+	background: black;
 	text-align: center;
 	float:left;
 	margin-left: 10px;
@@ -29,16 +48,6 @@
 	font-size: 12pt;
 	color: white;
 }
-
-#doorShape:hover { 
-	background: #FFA500;
-}
-
-#doorShape:focus { 
-	background: #00BFFF;
-}
-
-
 
 
 #doorknob {
@@ -90,3 +99,27 @@
 	color: black;
 
 }
+
+#goat {
+	width: 100px;
+	height: 150px;
+}
+
+a {
+	display:block;
+	width: 200px;
+	height: 400px;
+	float:left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	position:absolute;
+}
+
+a:hover {
+	background-color: white;
+	opacity: .2;
+}
+
+
