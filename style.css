@@ -105,7 +105,7 @@
 	height: 150px;
 }
 
-a {
+#door1 {
 	display:block;
 	width: 200px;
 	height: 400px;
@@ -117,9 +117,37 @@ a {
 	position:absolute;
 }
 
-a:hover {
-	background-color: white;
+#doorShape:hover {
+	background-color: yellow;
 	opacity: .2;
 }
 
+#restart {
+	text-align: center;
+	font-size: 12pt;
+	margin-top: 400px;
+	overflow: auto;
+	width: auto;
+	height:auto;
+	float: center;
+	vertical-align: bottom;
+	color: yellow;
+	position: absolute;
+	padding: 10px;
+}
 
+#restart:hover {
+	color: blue;
+}
+
+#doorShape.clickable {
+	position:relative;
+}
+
+#doorShape.clickable a {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	top: 0;
+	left: 0;
+}
